@@ -25,3 +25,9 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("hamburger-active");
   navMenu.classList.toggle("hidden");
 });
+
+// cv
+const cv = document.querySelector(".cv");
+cv.addEventListener("click", function () {
+  alert("Apologies, CV isn't ready yet.\nI'm currently working on it and will have it finalized soon. \nThanks for your patience and understanding. 🙏");
+});
