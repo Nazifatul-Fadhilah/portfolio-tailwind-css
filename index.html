@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Akhir AOS -->
     <title>Nazifa | Portfolio</title>
     <link rel="stylesheet" href="dist/css/style.css" />
   </head>
@@ -55,13 +58,13 @@
     <!-- Hero Section Start -->
 
     <section id="home" class="pt-36">
-      <div class="container">
-        <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
+      <div class="container" >
+        <div class="flex flex-wrap" >
+          <div class="w-full self-center px-4 lg:w-1/2" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500">
             <h1 class="text-xl font-semibold text-primary md:text-2xl">Hi there👋<span class="block font-bold text-secondary text-3xl mt-1 lg:text-4xl multiText"></span>
             </h1>
 
-            <h2 class="font-medium text-secondary text-md mb-5 lg:text-xl">Fresh Graduate & <span class="text-primary font-semibold"> Data Scientist </span></h2>
+            <h2 class="font-medium text-secondary text-md mb-5 lg:text-xl">Computer Science Graduate & <span class="text-primary font-semibold"> Data Scientist </span></h2>
             <p class="font-medium text-secondary mb-10 leading-relaxed">"The best of humanity lies in those who are beneficial to others." <span>-Anonymous-</span></p>
 
             <a href="#" target="_blank" class="cv text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
@@ -69,9 +72,9 @@
             </a>
           </div>
 
-          <div class="w-full self-end px-4 lg:w-1/2">
+          <div class="w-full self-end px-4 lg:w-1/2" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">
             <div class="relative mt-10 lg:mt-0 lg:right-0 ">
-              <img src="dist/img/fadhilah2.png" alt="Nazifatul Fadhilah" class="max-w-full mx-auto" />
+              <img src="dist/img/fadhilah2.png" alt="Nazifatul Fadhilah" class="max-w-full mx-auto"  />
               <span class="absolute -bottom-14 -z-10 left-1/2 -translate-x-1/2  sm:bottom-0 md:scale-125" >
                 <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -91,12 +94,12 @@
 
     <!-- About Section Start -->
     <section id="about" class="pt-36 pb-32">
-      <div class="container">
+      <div class="container" >
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2 ">
             <h4 class="font-bold  text-primary text-lg mb-3">About me 😊</h4>
             <h2 class="font-bold text-dark text-2xl mb-5 max-w-md lg:text-3xl">Who Am I?</h2>
-            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Freshly graduated in Computer Science, I'm deeply passionate about data analysis and cloud computing. Committed to applying my knowledge for collective good, I actively pursue related courses and master Python for data analysis, explore cloud technologies, and enhance database management skills with MySQL to realize my aspirations.</p>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg"> A data science-specialized computer science graduate proficient in data analysis, machine learning, and artificial intelligence. With a solid IT background, I'm adaptive, continuously developing skills. My problem-solving approach emphasizes critical thinking and robust computing skills, leading to innovative solutions.</p>
           </div>
           <div class="w-full px-4 lg:w-1/2 ">
             <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Let's Connect!</h3>
@@ -152,7 +155,7 @@
 
     <!-- Portfolio Section Start -->
     <section id="portfolio" class="pt-36 pb-16 bg-slate-100 ">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50">
         
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
@@ -166,7 +169,7 @@
         <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
 
           <!-- project 1 -->
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2 projek" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="50">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/portfolio/moviedb.png" width="w-full" alt="moviedb">
             </div>
@@ -175,7 +178,7 @@
           </div>
 
           <!-- project 2 -->
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2 projek" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="100">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/portfolio/prediksiKemiskinanLSTM.png"  width="w-full" alt="moviedb">
             </div>
@@ -184,7 +187,7 @@
           </div>
 
           <!-- project 3 -->
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2 projek" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="150">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/portfolio/klasifikasiPenyakitPadiCNN.png" width="w-full" alt="moviedb">
             </div>
@@ -194,7 +197,7 @@
           </div>
           
           <!-- project 4 -->
-          <div class="mb-12 p-4 md:w-1/2">
+          <div class="mb-12 p-4 md:w-1/2 projek" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="200">
             <div class="rounded-md shadow-md overflow-hidden">
               <img src="dist/img/portfolio/prediksiHargaTanah.png" width="w-full" alt="prediksiHargaTanah">
             </div>
@@ -248,7 +251,7 @@
       <section id="certificate" class="pt-36 pb-16 bg-slate-100 ">
         <div class="container">
           
-          <div class="w-full px-4">
+          <div class="w-full px-4" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="50">
             <div class="max-w-xl mx-auto text-center mb-16">
               <h4 class="font-semibold text-lg text-primary mb-2">Certificate</h4>
               <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl md:text-5xl">My Certificate</h2>
@@ -260,7 +263,7 @@
           <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
 
             <!-- sertifikat 1 -->
-            <div class="mb-12 p-4 md:w-1/2">
+            <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in-left" data-aos-duration="1500" data-aos-delay="50">
               <div class="rounded-md shadow-md overflow-hidden">
                 <img src="dist/img/certificate/dataAnalitikCoursera_.png" alt="analitikDataGoogle"   >
               </div>
@@ -269,7 +272,7 @@
             </div>
 
             <!-- sertifikat 2 -->
-            <div class="mb-12 p-4 md:w-1/2">
+            <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="100">
               <div class="rounded-md shadow-md overflow-hidden">
                 <img src="dist/img/certificate/cloudcomputing_.png"  width="w-full" alt="cloudComputingforJobseeker">
               </div>
@@ -278,7 +281,7 @@
             </div>
 
             <!-- sertifikat 3 -->
-            <div class="mb-12 p-4 md:w-1/2">
+            <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in-left" data-aos-duration="1500" data-aos-delay="150">
               <div class="rounded-md shadow-md overflow-hidden">
                 <img src="dist/img/certificate/foundationofAI_.jpg"  alt="foundationofAI" width="w-full">
               </div>
@@ -287,9 +290,9 @@
             </div>
             
             <!-- sertifikat 4 -->
-            <div class="mb-12 p-4 md:w-1/2">
+            <div class="mb-12 p-4 md:w-1/2" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="200">
               <div class="rounded-md shadow-md overflow-hidden">
-                <img src="dist/img/certificate/ALIBABACLOUD.jpg" alt="alibabaCloudCertification" width="w-full">
+                <img src="dist/img/certificate/ALIBABACLOUD_.jpg" alt="alibabaCloudCertification" width="w-full">
               </div>
               <h3 class="font-semibold text-xl text-dark mt-5 md:text-2xl">Alibaba Cloud</h3>
               <p class="font-medium text-base mt-1 text-secondary md:text-lg">Alibaba Cloud Certification</p>
@@ -303,7 +306,7 @@
 
     <!-- Journal Section Start -->
     <section id="journal" class="pt-36 pb-32 bg-slate-100">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50">
 
         <div class="w-full px-4">
           <div class="max-w-xl mx-auto text-center mb-16">
@@ -314,7 +317,7 @@
         </div>
       
       <div class="flex flex-wrap">
-        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
             <img src="dist/img/journal/pencarianMusik.jpg" alt="Pencarian Musik">
             <div class="py-8 px-6">
@@ -326,7 +329,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+        <div class="w-full px-4 lg:w-1/2 xl:w-1/3" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
           <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
             <img src="dist/img/journal/metodeMoora.jpg" alt="Metode MOORA">
             <div class="py-8 px-6">
@@ -371,8 +374,6 @@
             <textarea type="text" name="message" id="message" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32" required>
             </textarea>
           
-             <!-- hCaptcha Spam Protection -->
-
           <div class="w-full px-4">
             <button type="submit" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Submit!</button>
           </div>
@@ -387,9 +388,9 @@
 
 
 <!-- Footer Start -->
-<footer class="bg-dark pt-24 pb-12">
+<footer class="bg-dark py-3">
   <div class="container ">
-    <div class="flex items-center justify-center mb-5">
+    <div class="flex items-center justify-center py-3">
       <!-- linkedIn -->
       <a href="https://www.linkedin.com/in/nazifatul-fadhilah/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-600 text-slate-300 hover:border-primary hover:bg-primary hover:text-white hover:scale-95 hover:shadow transition duration-300 ease-in-out">
         <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
@@ -436,7 +437,8 @@
            d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
       </a>
     </div>
-    <p class="font-semibold text-md text-slate-500 text-center">Made with 🫶 by <a href="https://www.instagram.com/nazifatulf/" target="_blank"><span class="text-secondary font-bold">Na</span><span class="text-primary font-bold">zifa</span></a></p>
+
+    <p class="font-semibold text-md text-slate-500 text-center py-2">Made with 🫶 by <a href="https://www.instagram.com/nazifatulf/" target="_blank"><span class="text-secondary font-bold">Na</span><span class="text-primary font-bold">zifa</span></a></p>
     </div>
 
   </div>
@@ -444,7 +446,19 @@
 <!-- Footer End -->
 
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  const portfolio = document.querySelectorAll('.projek');
+  portfolio.forEach((porto,i) => {
+    porto.dataset.aos = 'zoom-in-up';
+    porto.dataset.aosDelay = i * 50;
+    porto.dataset.aosDuration = 1400;
+  })
 
+  AOS.init({
+    once: true,
+  });
+</script>
 <script src="dist/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
